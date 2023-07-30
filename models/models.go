@@ -1,6 +1,6 @@
-// models.go
+// models/models.go
 
-package main
+package models
 
 // User representa os dados de um usuário
 type User struct {

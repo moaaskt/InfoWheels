@@ -8,10 +8,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/moaaskt/vehicle_management_backend/models" // 
 )
 
-var users []User
-var vehicles []Vehicle
+var users []models.User
+var vehicles []models.Vehicle
 
 func main() {
 	router := mux.NewRouter()
